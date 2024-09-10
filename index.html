@@ -18,6 +18,9 @@
             text-align: center;
         }
         .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
             padding: 2rem;
         }
         .card {
@@ -26,6 +29,8 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             margin-bottom: 2rem;
             overflow: hidden;
+            flex: 1 1 30%;
+            margin: 1rem;
         }
         .card img {
             width: 100%;
@@ -50,21 +55,21 @@
     </header>
     <div class="container">
         <div class="card">
-            <img src="https://example.com/paris.jpg" alt="Torre Eiffel, Paris">
+            <img src="paris.jpg" alt="Torre Eiffel, Paris">
             <div class="card-content">
                 <h2 class="card-title">Paris, França</h2>
                 <p class="card-description">Conhecida como a "Cidade da Luz", Paris é famosa por seus monumentos icônicos como a Torre Eiffel, o Museu do Louvre e a Catedral de Notre-Dame.</p>
             </div>
         </div>
         <div class="card">
-            <img src="https://example.com/rome.jpg" alt="Coliseu, Roma">
+            <img src="rome.jpg" alt="Coliseu, Roma">
             <div class="card-content">
                 <h2 class="card-title">Roma, Itália</h2>
                 <p class="card-description">Roma é uma cidade rica em história e cultura, com atrações como o Coliseu, o Vaticano e a Fontana di Trevi.</p>
             </div>
         </div>
         <div class="card">
-            <img src="https://example.com/london.jpg" alt="Big Ben, Londres">
+            <img src="london.jpg" alt="Big Ben, Londres">
             <div class="card-content">
                 <h2 class="card-title">Londres, Reino Unido</h2>
                 <p class="card-description">Londres é uma metrópole vibrante, conhecida por seus marcos históricos como o Big Ben, a Torre de Londres e o Palácio de Buckingham.</p>
